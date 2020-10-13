@@ -1,0 +1,113 @@
+<!--This is a small web-page for absolute beginners :)-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food corner</title>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Giga&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap" rel="stylesheet">
+    <style>
+        header::before {
+            background: url("https://source.unsplash.com/collection/190727/1600x900") no-repeat center center/cover;
+            content: "";
+            height: 700px;
+            width: 100%;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            opacity: 0.5;
+            z-index: -1;
+        }
+        
+         .left {
+           /*s flex-direction: row;*/
+            margin-left: 400px;
+            justify-content: center;
+            align-items: center;
+        }
+        .left h2{
+            justify-content: center;
+            align-items: center;
+            margin-left: 150px;
+            margin-bottom: 160px;
+            font-family: 'Pacifico', cursive;
+            color: rgb(77, 80, 79);
+            letter-spacing: .2rem;
+        }
+        .left .deco{
+            /*justify-content: center;*/
+           align-items: center;
+            height: 112px;
+            width: 645px;
+            margin-left: 80px;
+            margin-top: -145px;
+            
+            font-size: 25px;
+            font-family: 'Dancing Script', cursive;
+        }
+        .items li{
+            display: inline;
+            font-size: 1.9rem;
+            font-family: 'Baloo Bhaina 2', cursive;
+        }
+       .items li a{
+            text-decoration: none;
+            height: 100px;
+            margin-top: 150px;
+            color: rgb(43, 75, 75);
+            padding: 2px 4px;
+        }
+        .items li :hover{
+            color: rgb(106, 236, 236);
+            font-size: 1.7rem;
+            
+        }
+        
+        .but {
+        margin-left: 42rem;
+        margin-top: 20rem;
+        
+        cursor: pointer;
+        border-radius: 19px;
+        font-size: 1rem;
+      
+    }
+    .navigation{
+        margin-left: 22rem;
+        width: 890px;
+        border-style: dotted;
+    }
+    </style>
+</head>
+
+<body>
+    <header class="container">
+           <div class="left">
+               
+               <h2>WELCOME TO THE TASTY WORLD</h2>
+               <p class="deco">
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus et delectus est voluptate sequi a, quam voluptates voluptatum! Eligendi, cum! Odit sint, rem delectus hic sequi nam minus sunt aut.
+               </p>
+           </div>
+           <nav class="navigation">
+               <ul class="items">
+                   <li><a href="#">HOME</a></li>
+                   <li><a href="#">KNOW MORE</a></li>
+                   <li><a href="#">REGISTER</a></li>
+                   <li><a href="#">CONTACT US</a></li>
+                   <li><a href="#">IMPORTANCE</a></li>
+               </ul>
+           </nav>
+           
+    </header>
+    <button class="but">CLICK HERE</button>
+</body>
+
+</html>
